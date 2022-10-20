@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -20,7 +20,7 @@
             android:id="@+id/judul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aplikasi Biodata"
+            android:text="@string/aplikasi_biodata"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="30sp"
@@ -41,7 +41,8 @@
                 android:layout_width="150dp"
                 android:layout_height="208dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/foto_kuliah" />
+                app:srcCompat="@drawable/foto_kuliah"
+                android:contentDescription="@string/todo" />
 
         </androidx.cardview.widget.CardView>
 
@@ -57,7 +58,8 @@
             android:text="NIM : A11.2021.13294"
             android:textAlignment="textStart"
             android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
         <Space
             android:layout_width="match_parent"
@@ -68,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="Nama : Septian Ade Hidayat"
+            android:text="@string/nama_septian_ade_hidayat"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp" />
@@ -82,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="Hobi : Bermain Game dan Olahraga"
+            android:text="@string/hobi_bermain_game_dan_olahraga"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp" />
@@ -96,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Mahasiswa aktif program studi S-1 Teknik Informatika. Selalu termotivasi untuk mencoba hal baru, berpikir kritis dan kreatif serta memiliki kemampuan untuk berkomunikasi dengan baik."
+            android:text="@string/mahasiswa_aktif_program_studi_s_1_teknik_informatika_selalu_termotivasi_untuk_mencoba_hal_baru_berpikir_kritis_dan_kreatif_serta_memiliki_kemampuan_untuk_berkomunikasi_dengan_baik"
             android:textAlignment="center"
             android:textColor="#000000" />
 
@@ -108,15 +110,16 @@
             android:id="@+id/cekAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lihat alamat detail :"
+            android:text="@string/lihat_alamat_detail"
             android:textColor="#000000" />
 
         <Button
             android:id="@+id/buttonAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ALAMAT"
-            android:onClick="showMap"/>
+            android:text="@string/alamat"
+            android:onClick="showMap"
+            tools:ignore="UsingOnClickInXml" />
 
         <Space
             android:layout_width="match_parent"
@@ -126,21 +129,23 @@
             android:id="@+id/kontak"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hubungi saya :"
+            android:text="@string/hubungi_saya"
             android:textColor="#000000" />
 
         <Button
             android:id="@+id/buttonTelepon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TELEPON"
-            android:onClick="telepon"/>
+            android:text="@string/telepon"
+            android:onClick="telepon"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/buttonEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EMAIL"
-            android:onClick="email"/>
+            android:text="@string/email"
+            android:onClick="email"
+            tools:ignore="UsingOnClickInXml" />
     </LinearLayout>
 </ScrollView>

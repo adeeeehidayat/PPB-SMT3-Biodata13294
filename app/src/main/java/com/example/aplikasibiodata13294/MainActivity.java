@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             startActivity(Intent.createChooser(intent, "Ingin Mengirim Email ?"));
-        } catch (android.content.ActivityNotFoundException ex) {
+        } catch (android.content.ActivityNotFoundException ignored) {
 
         }
     }

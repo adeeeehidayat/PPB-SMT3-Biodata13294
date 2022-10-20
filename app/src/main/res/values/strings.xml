@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AplikasiBiodata13294</string>
+    <string name="aplikasi_biodata">Aplikasi Biodata</string>
+    <string name="todo">TODO</string>
+    <string name="nama_septian_ade_hidayat">Nama : Septian Ade Hidayat</string>
+    <string name="hobi_bermain_game_dan_olahraga">Hobi : Bermain Game dan Olahraga</string>
+    <string name="mahasiswa_aktif_program_studi_s_1_teknik_informatika_selalu_termotivasi_untuk_mencoba_hal_baru_berpikir_kritis_dan_kreatif_serta_memiliki_kemampuan_untuk_berkomunikasi_dengan_baik">Mahasiswa aktif program studi S-1 Teknik Informatika. Selalu termotivasi untuk mencoba hal baru, berpikir kritis dan kreatif serta memiliki kemampuan untuk berkomunikasi dengan baik.</string>
+    <string name="lihat_alamat_detail">Lihat alamat detail :</string>
+    <string name="alamat">ALAMAT</string>
+    <string name="hubungi_saya">Hubungi saya :</string>
+    <string name="telepon">TELEPON</string>
+    <string name="email">EMAIL</string>
 </resources>
